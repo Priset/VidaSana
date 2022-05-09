@@ -66,7 +66,7 @@ Luego se va al archivo vida_sana.cpp y ejecutamos el programa en la flecha de co
 Finalmente podremos observar el resultado en el output del editos VS Code.
 
 
-![imagen](https://user-images.githubusercontent.com/90929324/167505873-01af5526-d51f-4e0c-873b-eeaa73c90e19.png)
+![imagen](https://user-images.githubusercontent.com/90929324/167505964-218fba74-396f-496b-88b9-65bb547d73b9.png)
 
 
 ## Definición del Problema
