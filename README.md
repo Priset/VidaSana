@@ -1,7 +1,7 @@
 # VidaSana
 
 El siguiente programa fue creado con el fin de brindar orientación en el tema de las dietas 
-de una persona y los diferentes costos que presenta un producto para encontrar la mejorar relación
+de una persona y los diferentes costos que presenta un producto para encontrar la mejor relación
 ganancia-precio, para alcanzar la meta del usurario.
 
 ## Proceso de instalación
