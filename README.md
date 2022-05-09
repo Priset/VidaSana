@@ -45,7 +45,7 @@ de nuestra carpeta ya creada y dentro de esta descomprimimos el archivo ZIP. Ter
 los archivos del programa en el editor (VS Code).
 
 
-![imagen](https://user-images.githubusercontent.com/90929324/167323765-3d798f68-1f1c-47cf-a719-709e0124f397.png)
+![imagen](https://user-images.githubusercontent.com/90929324/167324597-9da71de3-f413-42c5-ba30-7cc98a5113ff.png)
 
 
 Una vez terminados todos estos pasos tendremos listo el programa para ejecutarse.
