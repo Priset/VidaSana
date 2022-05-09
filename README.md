@@ -32,14 +32,18 @@ Estas extensiones se pueden instalar dese el menu de acciones del lado izquierdo
 
 
 #### 4.- Crear Carpeta
-Se debe crear una carpeta en donde se almacenaran los archivos del programa
+Se debe crear una carpeta en donde se almacenaran los archivos del programa asignandole el nombre que desee.
 
 
 ![imagen](https://user-images.githubusercontent.com/90929324/167322563-f10532a8-8fce-4419-b977-4cbebdaabce8.png)
 
 
 #### 5.- Importar Archivos
-Se debe acceder al siguiente link 
+Se debe descargar el archivo ZIP del repositorio de GitHub, seguidamente en el explorador de archivos buscamos el directorio 
+de nuestra carpeta ya creada y dentro de esta descomprimimos el archivo ZIP. Terminados una vez estos pasos nos aparecerán 
+los archivos del programa en el editor (VS Code).
+
+
 
 
 
