@@ -54,7 +54,7 @@ si usted tiene un Sistema operativo de 32 bits puede revisar los siguientes link
 respectivamente luego se podrian seguir los pasos de manera análoga).
 
 
-### Ejecutar el programa
+#### 4.- Ejecutar el programa
 Una vez se tenga todo funcional se puede proceder a compilar el programa, primero en el archivo in.txt itroducimos 
 la entrada que se desee del 1 al 6 (el 7 es para salir del programa).
 Luego se va al archivo vida_sana.cpp y ejecutamos el programa en la flecha de compilación al lado superior derecho del editor (VS Code), 
