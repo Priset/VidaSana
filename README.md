@@ -63,13 +63,16 @@ Luego se va al archivo vida_sana.cpp y ejecutamos el programa en la flecha de co
 ![imagen](https://user-images.githubusercontent.com/90929324/167505358-5001ffde-f964-436d-880b-d96c80fb738d.png)
 
 
-Finalmente podremos observar el resultado en el output del editos VS Code.
-
-
-![imagen](https://user-images.githubusercontent.com/90929324/167505964-218fba74-396f-496b-88b9-65bb547d73b9.png)
+Finalmente podremos observar el resultado en el output del editor VS Code.
 
 
 ## Definición del Problema
+Para el desarrollo del programa se planteo el siguiente problema, un usuario quiere alcanzar una meta fisica implementando una dieta
+teniendo como opción subir masa muscular, bajar de peso, o entrar en definición pero solo se tiene cierta cantidad de dinero para poder 
+obtener los resultados deseados, entonces lo que se busca resolver con el programa es poder hallar la mejor dieta que otorgue proteinas para 
+subir masa muscular, baja en calorias para definición y baja en proteinas para bajar de peso, asimismo encontrar el precio mas economico teniendo 
+una relación de ganancia-precio. Tenemos solamente 10 productos que estamos tomando en cuenta para realizar este analisis los cuales son 
+pollo, huevo, pescado, avena, linasa, quinua, te verde, yogurt griego, palta, y frutos secos.
 
 
 ## Explicación del Algoritmo
