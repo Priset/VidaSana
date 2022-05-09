@@ -59,7 +59,7 @@ Una vez se tenga todo funcional se puede proceder a compilar el programa, primer
 la entrada que se desee del 1 al 6 (el 7 es para salir del programa).
 
 
-![imagen](https://user-images.githubusercontent.com/90929324/167505564-3116e50d-c286-476a-8aa2-c3e19b4f5b14.png)
+![imagen](https://user-images.githubusercontent.com/90929324/167505634-afee1770-977a-4fee-85b6-05de825f09af.png)
 
 
 Luego se va al archivo vida_sana.cpp y ejecutamos el programa en la flecha de compilación al lado superior derecho del editor (VS Code), 
