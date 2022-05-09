@@ -36,7 +36,7 @@ Continuando con el proceso de instalación debemos realizar las siquientes accio
 Se debe crear una carpeta en donde se almacenaran los archivos del programa asignandole el nombre que desee.
 
 
-![imagen](https://user-images.githubusercontent.com/90929324/167322563-f10532a8-8fce-4419-b977-4cbebdaabce8.png)
+![imagen](https://user-images.githubusercontent.com/90929324/167324711-262b7616-05a9-4383-8dcf-d4c44d313be8.png)
 
 
 #### 2.- Importar Archivos
