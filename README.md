@@ -51,7 +51,7 @@ los archivos del programa en el editor (VS Code).
 Una vez terminados todos estos pasos tendremos listo el programa para ejecutarse.
 (Todas estas instrucciones fueron evaluadas para un Sistema Operativo de 64 bits,
 si usted tiene un Sistema operativo de 32 bits puede revisar los siguientes links: https://www.youtube.com/watch?v=RfebFlu2CcM , https://www.youtube.com/watch?v=5grPpOZSr_c, para VS Code y el compilador de C++
-respectivamente luego se podrian seguir los pasos de manera analoga).
+respectivamente luego se podrian seguir los pasos de manera análoga).
 
 ## Definición del Problema
 
