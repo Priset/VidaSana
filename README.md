@@ -31,7 +31,20 @@ Estas extensiones se pueden instalar dese el menu de acciones del lado izquierdo
 ![imagen](https://user-images.githubusercontent.com/90929324/167322940-0268d709-ee04-4cd8-9fcc-252f660aafe6.png)
 
 
-#### 4.- Se debe crear una carpeta en donde se almacenaran los archivos del programa
+#### 4.- Crear Carpeta
+Se debe crear una carpeta en donde se almacenaran los archivos del programa
 
 
 ![imagen](https://user-images.githubusercontent.com/90929324/167322563-f10532a8-8fce-4419-b977-4cbebdaabce8.png)
+
+
+#### 5.- Importar Archivos
+Se debe acceder al siguiente link 
+
+
+
+
+
+
+
+
