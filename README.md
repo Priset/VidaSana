@@ -16,14 +16,20 @@ manejar el editor de su preferencia.
 
 Los requisitos esenciales para poder ejecutar el programa son los siguientes:
 
-#### 1.- Tener instalado un compilador para C++ (DEV C++), si no tiene instalado el compilador puede
-observar el sigueinte video para su correcta instalación: https://www.youtube.com/watch?v=0B_Ly0A3RV0
+#### 1.- Tener instalado un compilador para C++ (DEV C++) 
+Si no tiene instalado el compilador puede observar el sigueinte video para su 
+correcta instalación: https://www.youtube.com/watch?v=0B_Ly0A3RV0
 
-#### 2.- Tener un editor funcional que acepte C++, en este caso Visual Studio Code, si no tiene instalado
-un editor puede observar el siguiente video para su correcta instalación: https://www.youtube.com/watch?v=X_Z7d04x9-E
+#### 2.- Tener un editor funcional que acepte C++
+En este caso Visual Studio Code, si no tiene instaladoun editor puede observar el 
+siguiente video para su correcta instalación: https://www.youtube.com/watch?v=X_Z7d04x9-E
 
-#### 3.- Una vez instalado VS Code debe instalar las siguientes extensiones: C/C++, C/C++ Extension Pack, Code Runner.
+#### 3.- Instalar extensiones
+Una vez instalado VS Code debe instalar las sigueintes extensiones: C/C++, C/C++ Extension Pack, Code Runner.
 Estas extensiones se pueden instalar dese el menu de acciones del lado izquierdo del editor VS Code.
+
+![imagen](https://user-images.githubusercontent.com/90929324/167322940-0268d709-ee04-4cd8-9fcc-252f660aafe6.png)
+
 
 #### 4.- Se debe crear una carpeta en donde se almacenaran los archivos del programa
 
