@@ -65,7 +65,7 @@ la entrada que se desee del 1 al 6 (el 7 es para salir del programa).
 Luego se va al archivo vida_sana.cpp y ejecutamos el programa en la flecha de compilación al lado superior derecho del editor (VS Code), 
 
 
-![imagen](https://user-images.githubusercontent.com/90929324/167503716-83d4a152-0ddf-466c-8418-798f53ca84ae.png)
+![imagen](https://user-images.githubusercontent.com/90929324/167505358-5001ffde-f964-436d-880b-d96c80fb738d.png)
 
 
 Finalmente podremos observar 
