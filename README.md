@@ -8,7 +8,7 @@ ganancia-precio, para alcanzar la meta del usurario.
 
 Primeramente se debe tener en cuenta que el programa fue realizado en el lenguaje de programación C++,
 además este programa fue diseñado en el editor Visual Studio Code. Se recomienda utilizar este editor 
-por la comodidad que ofrece y las distintas extensiones que tiene de por medio ademas de la facilidad
+por la comodidad que ofrece y las distintas extensiones que tiene de por medio, además de la facilidad
 que otorga manejar distintos lenguajes de programación en un mismo editor. No obstante, el usuario puede
 manejar el editor de su preferencia.
 
