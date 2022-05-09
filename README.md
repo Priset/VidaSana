@@ -17,4 +17,6 @@ un editor puede observar el siguiente video para su correcta instalación: https
 3.- Una vez instalado VS Code debe instalar las siguientes extensiones: C/C++, C/C++ Extension Pack, Code Runner.
 Estas extensiones se pueden instalar dese el menu de acciones del lado izquierdo del editor VS Code.
 4.- Se debe crear una carpeta en donde se almacenaran los archivos del programa
+
+
 ![imagen](https://user-images.githubusercontent.com/90929324/167322563-f10532a8-8fce-4419-b977-4cbebdaabce8.png)
