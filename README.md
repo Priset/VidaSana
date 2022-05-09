@@ -30,22 +30,31 @@ Estas extensiones se pueden instalar dese el menu de acciones del lado izquierdo
 
 ![imagen](https://user-images.githubusercontent.com/90929324/167322940-0268d709-ee04-4cd8-9fcc-252f660aafe6.png)
 
+Continuando con el proceso de instalación debemos realizar las siquientes acciones:
 
-#### 4.- Crear Carpeta
+#### 1.- Crear Carpeta
 Se debe crear una carpeta en donde se almacenaran los archivos del programa asignandole el nombre que desee.
 
 
 ![imagen](https://user-images.githubusercontent.com/90929324/167322563-f10532a8-8fce-4419-b977-4cbebdaabce8.png)
 
 
-#### 5.- Importar Archivos
+#### 2.- Importar Archivos
 Se debe descargar el archivo ZIP del repositorio de GitHub, seguidamente en el explorador de archivos buscamos el directorio 
 de nuestra carpeta ya creada y dentro de esta descomprimimos el archivo ZIP. Terminados una vez estos pasos nos aparecerán 
 los archivos del programa en el editor (VS Code).
 
 
+![imagen](https://user-images.githubusercontent.com/90929324/167323765-3d798f68-1f1c-47cf-a719-709e0124f397.png)
 
 
+## Definición del Problema
+
+
+## Explicación del Algoritmo
+
+
+## Conclusión 
 
 
 
