@@ -53,6 +53,23 @@ Una vez terminados todos estos pasos tendremos listo el programa para ejecutarse
 si usted tiene un Sistema operativo de 32 bits puede revisar los siguientes links: https://www.youtube.com/watch?v=RfebFlu2CcM , https://www.youtube.com/watch?v=5grPpOZSr_c, para VS Code y el compilador de C++
 respectivamente luego se podrian seguir los pasos de manera análoga).
 
+
+### Ejecutar el programa
+Una vez se tenga todo funcional se puede proceder a compilar el programa, primero en el archivo in.txt itroducimos 
+la entrada que se desee del 1 al 6 (el 7 es para salir del programa).
+
+
+![imagen](https://user-images.githubusercontent.com/90929324/167503412-9c5c588c-f307-49a6-9fe5-b020b95871b5.png)
+
+
+Luego se va al archivo vida_sana.cpp y ejecutamos el programa en la flecha de compilación al lado superior derecho del editor (VS Code), 
+
+
+![imagen](https://user-images.githubusercontent.com/90929324/167503716-83d4a152-0ddf-466c-8418-798f53ca84ae.png)
+
+
+Finalmente podremos observar 
+
 ## Definición del Problema
 
 
