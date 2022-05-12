@@ -50,7 +50,8 @@ los archivos del programa en el editor (VS Code).
 
 Una vez terminados todos estos pasos tendremos listo el programa para ejecutarse.
 (Todas estas instrucciones fueron evaluadas para un Sistema Operativo de 64 bits,
-si usted tiene un Sistema operativo de 32 bits puede revisar los siguientes links: https://www.youtube.com/watch?v=RfebFlu2CcM , https://www.youtube.com/watch?v=5grPpOZSr_c, para VS Code y el compilador de C++
+si usted tiene un Sistema operativo de 32 bits puede revisar los siguientes links: 
+https://www.youtube.com/watch?v=RfebFlu2CcM , https://www.youtube.com/watch?v=5grPpOZSr_c, para VS Code y el compilador de C++
 respectivamente luego se podrian seguir los pasos de manera análoga).
 
 
@@ -72,14 +73,23 @@ teniendo como opción subir masa muscular, bajar de peso o entrar en definición
 obtener los resultados deseados. Entonces lo que se busca resolver con el programa es poder hallar la mejor dieta que otorgue proteinas para 
 subir masa muscular, baja en calorias para definición y baja en proteinas para bajar de peso, así mismo, encontrar el precio más económico, teniendo 
 una relación de ganancia-precio. Tenemos solamente 10 productos que estamos tomando en cuenta para realizar este análisis, los cuales son:
-Pollo, huevo, pescado, avena, linasa, quinua, te verde, yogurt griego, palta, y frutos secos. Cada uno de estos productos obviamente tiene su respectiva valoración en los parámetros de calorias y proteinas.
+Pollo, huevo, pescado, avena, linasa, quinua, te verde, yogurt griego, palta, y frutos secos. 
+Cada uno de estos productos obviamente tiene su respectiva valoración en los parámetros de calorias y proteinas.
 
 
 ## Explicación del Algoritmo
 
 
 ## Conclusión 
-Para finalizar este proyecto podemos decir que el precio de nuestra alimentación puede variar demasiado dependiendo nuestra meta, con este algoritmo podriamos escoger de acuerdo a nuestras nececidades y posibilidades lo más adecuado y accesible para una persona de cualquier estatus social.  
+Para finalizar este proyecto podemos decir que el precio de nuestra alimentación puede variar demasiado dependiendo 
+nuestra meta, con este algoritmo podriamos escoger de acuerdo a nuestras nececidades y posibilidades lo más adecuado 
+y accesible para una persona de cualquier estatus social. 
+Por lo tanto, se ha llegado a la conclusión que este algoritmo nos ayuda a resolver problemas utilizando Knapsack 
+siendo el proceso muy eficiente debido a la facilidad que nos otorga este, y por lo tanto es uno de los algoritmos
+más utilizados. Así mismo se uso programación dinamica para tener resultados más precisos y óptimos además de la obtención de 
+datos adicionales que nos ayudan a desarrollar mejor la solución al problema. Obteniendo de este modo un resultado exitoso 
+con el programa "vida_sana" y resolviendo todo el problema planteado anteriormente. 
+
 
 
 
