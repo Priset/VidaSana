@@ -6,7 +6,7 @@ using namespace std;
 int precio[] = {45, 30, 80, 35, 8, 10, 8, 25, 15, 35};  //1.pollo, 2.huevo, 3.pescado, 4.avena, 5.linasa, 6.quinua, 7.te_verde, 8.yogurt_griego, 9.palta, 10.frutos secos
 int gananciaProteinas[] = {540, 390, 400, 25, 360, 200, 1, 50, 40, 840}; 
 int gananciaCalorias[] = {6600, 2250, 3600, 3900, 10600, 3600, 40, 1400, 3200, 980};
-int gananciaCarbohidratos[] = {}; //Escribir carbohidratos
+int gananciaCarbohidratos[] = {2, 15, 3, 600, 300, 500, 1, 530, 180, 140}; //Escribir carbohidratos
 int nroProductos = 10;
 
 int dp[100][100000];
