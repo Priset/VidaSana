@@ -86,6 +86,7 @@ busca la mejor solución entre un conjunto finito de posibles soluciones a un pr
 Modela una situación análoga al llenar una mochila, incapaz de soportar más de un cierto peso límite, la idea es llenar dicha mochila con 
 distintos objetos, cada uno con un peso y valor específicos. Los objetos colocados en la mochila deben ser los que tengan el mayor valor
 posible, obviamente sin exceder el peso máximo.
+Ahora bien, este algoritmo aplicado a nuestro código funcionaría de la siguiente manera: ...
 
 ## Conclusión 
 Para finalizar este proyecto se puede decir que el precio de nuestra alimentación puede variar demasiado dependiendo 
