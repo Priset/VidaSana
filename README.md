@@ -81,7 +81,7 @@ Cada uno de estos productos obviamente tiene su respectiva valoración en los pa
 
 
 ## Conclusión 
-Para finalizar este proyecto podemos decir que el precio de nuestra alimentación puede variar demasiado dependiendo 
+Para finalizar este proyecto se puede decir que el precio de nuestra alimentación puede variar demasiado dependiendo 
 nuestra meta, con este algoritmo podriamos escoger de acuerdo a nuestras nececidades y posibilidades lo más adecuado 
 y accesible para una persona de cualquier estatus social. 
 Por lo tanto, se ha llegado a la conclusión que este algoritmo nos ayuda a resolver problemas utilizando Knapsack 
