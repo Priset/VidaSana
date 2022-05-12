@@ -3,15 +3,19 @@
 #define output freopen("out.txt","w",stdout)
 #define INF 100000010;
 using namespace std;
-int precio[] = {45, 30, 80, 35, 8, 10, 8, 25, 15, 35};  //1.pollo, 2.huevo, 3.pescado, 4.avena, 5.linasa, 6.quinua, 7.te_verde, 8.yogurt_griego, 9.palta, 10.frutos secos
-int gananciaProteinas[] = {540, 390, 400, 25, 360, 200, 1, 50, 40, 840}; 
-int gananciaCalorias[] = {6600, 2250, 3600, 3900, 10600, 3600, 40, 1400, 3200, 980};
-int gananciaCarbohidratos[] = {2, 15, 3, 600, 300, 500, 1, 530, 180, 140}; //Escribir carbohidratos
+//int precio[] = {45, 30, 80, 35, 8, 10, 8, 25, 15, 35};  //1.pollo, 2.huevo, 3.pescado, 4.avena, 5.linasa, 6.quinua, 7.te_verde, 8.yogurt_griego, 9.palta, 10.frutos secos
+int precio[] = {8, 8, 10, 15, 25, 30, 35, 35, 45, 80};
+int gananciaProteinas[] = {1, 25, 40, 50, 200, 360, 390, 400, 540, 840};
+int gananciaCalorias[] = {40, 980, 1400, 2250, 3200, 3600, 3600, 3900, 6600, 10600};
+int gananciaCarbohidratos[] = {1, 2, 3, 15, 140, 180, 300, 500, 530, 600};
 int nroProductos = 10;
 
-int dp[100][100000];
+int dp1[100][10000]; 
+int dp2[100][10000];
+int dp3[100][10000];
+int dp4[100][10000];
 
-int subirMasaMuscularTD(int i, int dineroUsuario){  //NO CALUCA VALORES MENORES A 45 :C
+int subirMasaMuscularTD(int i, int dineroUsuario){  
     if(dineroUsuario-precio[i] < 0){
         return 0;
     }
@@ -20,11 +24,11 @@ int subirMasaMuscularTD(int i, int dineroUsuario){  //NO CALUCA VALORES MENORES 
         return 0;
     }
 
-    if(dp[i][dineroUsuario] == -1) {
-        dp[i][dineroUsuario] =  max(gananciaProteinas[i] + subirMasaMuscularTD(i+1,dineroUsuario-precio[i]), subirMasaMuscularTD(i+1,dineroUsuario));
+    if(dp1[i][dineroUsuario] == -1) {
+        dp1[i][dineroUsuario] =  max(gananciaProteinas[i] + subirMasaMuscularTD(i+1,dineroUsuario-precio[i]), subirMasaMuscularTD(i+1,dineroUsuario));
     }
     
-    return dp[i][dineroUsuario];
+    return dp1[i][dineroUsuario];
 
 }
 
@@ -37,12 +41,11 @@ int aumentarVolumenTD(int i, int dineroUsuario){
         return 0;
     }
 
-    if(dp[i][dineroUsuario] == -1) {
-        dp[i][dineroUsuario] =  max(gananciaCalorias[i] + aumentarVolumenTD(i+1,dineroUsuario-precio[i]), aumentarVolumenTD(i+1,dineroUsuario));
+    if(dp2[i][dineroUsuario] == -1) {
+        dp2[i][dineroUsuario] =  max(gananciaCalorias[i] + aumentarVolumenTD(i+1,dineroUsuario-precio[i]), aumentarVolumenTD(i+1,dineroUsuario));
     }
     
-    return dp[i][dineroUsuario];
-
+    return dp2[i][dineroUsuario];
 }
 
 int subirPesoTD(int i, int dineroUsuario){
@@ -54,37 +57,14 @@ int subirPesoTD(int i, int dineroUsuario){
         return 0;
     }
 
-    if(dp[i][dineroUsuario] == -1) {
-        dp[i][dineroUsuario] =  max(gananciaCarbohidratos[i] + subirPesoTD(i+1,dineroUsuario-precio[i]), subirPesoTD(i+1,dineroUsuario));
+    if(dp3[i][dineroUsuario] == -1) {
+        dp3[i][dineroUsuario] =  max(gananciaCarbohidratos[i] + subirPesoTD(i+1,dineroUsuario-precio[i]), subirPesoTD(i+1,dineroUsuario));
     }
     
-    return dp[i][dineroUsuario];
+    return dp3[i][dineroUsuario];
 
 }
 
-
-/*
-int bajarPesoTD(int i, int dineroUsuario){   // REDUCE HASTA NUMEROS NEGATIVOS Y ENTRA AL IF POR LO TANTO VUELVE EL INF
-    for(int i = 1; i <= dineroUsuario ;i++) {
-        dp[0][i] = 2000;                       //PUEDE ESTAR MAL EL DP??
-    }
-    cout<<dineroUsuario-precio[i]<<endl;
-    if(dineroUsuario-precio[i] < 0){
-        cout<<"SORO"<<endl;
-        return 2000; 
-    }
-
-    if(i >= nroProductos){
-        return 2000; 
-    }
-
-    if(dp[i][dineroUsuario] == 2000) {
-        dp[i][dineroUsuario] =  min(gananciaProteinas[i] + bajarPesoTD(i+1,dineroUsuario-precio[i]), bajarPesoTD(i+1,dineroUsuario));   //ESTA MAL EL LLAMADO RECURSIVO??
-    }
-    
-    return dp[i][dineroUsuario];
-}
-*/
 
 /*
 int definicionTD(int i, int dineroUsuario){ 
@@ -106,26 +86,25 @@ int definicionTD(int i, int dineroUsuario){
 */
 
 
-int minimoProductos(int dineroUsuario) {  //MINIMO DE PRODUCTOS QUE SE PUEDEN COMPRAR????? CON EL DINERO??
-    //int dp2[value5][100];
-    memset(dp,0,sizeof (dp));
+int minimoProductos(int dineroUsuario) {  
+    memset(dp4,0,sizeof (dp4));
     for(int i = 1; i <= dineroUsuario ;i++) {
-        dp[0][i] = INF;
+        dp4[0][i] = INF;
     }
 
     for (int i = 1 ;i <= sizeof(precio)/sizeof(precio[0]); i++ ) {
         for(int j = 0; j <= dineroUsuario ; j++ ){
             if(j- precio [i-1]>=0) {
-                int valor = 1 + dp[i][j-precio[i-1]];
-                dp[i][j] = min (valor, dp[i-1][j]);
+                int valor = 1 + dp4[i][j-precio[i-1]];
+                dp4[i][j] = min (valor, dp4[i-1][j]);
             }
             else {
-                dp[i][j] = dp[i-1][j];
+                dp4[i][j] = dp4[i-1][j];
             }
         }
     }
     
-    return dp[sizeof(precio)/sizeof(precio[0])][dineroUsuario];
+    return dp4[sizeof(precio)/sizeof(precio[0])][dineroUsuario];
 }
 
 
@@ -143,7 +122,7 @@ void showMenu(){
 }
 
 void example1(){
-    int dineroUsuario = 150;
+    int dineroUsuario = 10;
     cout<<"Ejecutando el Primer Ejemplo para subir masa muscular 💪🏻 ..."<<endl;
     cout<<"⤵️"<<endl;
     cout<<"El maximo de proteinas que se puede obtener con " << dineroUsuario << "bs es " << subirMasaMuscularTD(0,dineroUsuario) << " proteinas." << endl;
@@ -200,7 +179,9 @@ int main(){
     cin>>option;
     showMenu();
     do{
-        memset(dp, -1,sizeof (dp));
+        memset(dp1, -1,sizeof (dp1));
+        memset(dp2, -1,sizeof (dp2));
+        memset(dp3, -1,sizeof (dp3));
         switch (option) {
         case 1:
             example1();
