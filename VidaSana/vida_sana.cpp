@@ -2,9 +2,8 @@
 #define input freopen("in.txt","r",stdin)
 #define output freopen("out.txt","w",stdout)
 #define INF 100000010;
-using namespace std;
-//int precio[] = {45, 30, 80, 35, 8, 10, 8, 25, 15, 35};  //1.pollo, 2.huevo, 3.pescado, 4.avena, 5.linasa, 6.quinua, 7.te_verde, 8.yogurt_griego, 9.palta, 10.frutos secos
-int precio[] = {8, 8, 10, 15, 25, 30, 35, 35, 45, 80};
+using namespace std;    
+int precio[] = {8, 8, 10, 15, 25, 30, 35, 35, 45, 80}; //1.linasa, 2.te_verde, 3.quinua, 4.palta, 5.yogurt_griego, 6.huevo, 7.avena, 8.frutos secos, 9.pollo, 10.pescado.
 int gananciaProteinas[] = {1, 25, 40, 50, 200, 360, 390, 400, 540, 840};
 int gananciaCalorias[] = {40, 980, 1400, 2250, 3200, 3600, 3600, 3900, 6600, 10600};
 int gananciaCarbohidratos[] = {1, 2, 3, 15, 140, 180, 300, 500, 530, 600};
@@ -65,27 +64,6 @@ int subirPesoTD(int i, int dineroUsuario){
 
 }
 
-
-/*
-int definicionTD(int i, int dineroUsuario){ 
-    if(dineroUsuario-precio[i] < 0){
-        return INF; // 0 ?
-    }
-
-    if(i >= nroProductos){
-        return INF;
-    }
-
-    if(dp[i][dineroUsuario] == -1) {
-        dp[i][dineroUsuario] = min(gananciaCalorias[i] + definicionTD(i+1,dineroUsuario-precio[i]), definicionTD(i+1,dineroUsuario));
-    }
-    
-    return dp[i][dineroUsuario];
-
-}
-*/
-
-
 int minimoProductos(int dineroUsuario) {  
     memset(dp4,0,sizeof (dp4));
     for(int i = 1; i <= dineroUsuario ;i++) {
@@ -107,9 +85,7 @@ int minimoProductos(int dineroUsuario) {
     return dp4[sizeof(precio)/sizeof(precio[0])][dineroUsuario];
 }
 
-
 void showMenu(){
-    //cout << "\033[1;31mbold red text\033[0m\n"; //NECESITO TPONER COLOR
     cout<<"🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱VIDA-SANA🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱"<<endl;
     cout<<"1️⃣ Ejecutar el Primer Ejemplo para subir masa muscular. 💪🏻"<<endl;
     cout<<"2️⃣ Ejecutar el Segundo Ejemplo para subir masa muscular. 🦵🏻"<<endl;
@@ -122,11 +98,11 @@ void showMenu(){
 }
 
 void example1(){
-    int dineroUsuario = 10;
+    int dineroUsuario = 150;
     cout<<"Ejecutando el Primer Ejemplo para subir masa muscular 💪🏻 ..."<<endl;
     cout<<"⤵️"<<endl;
     cout<<"El maximo de proteinas que se puede obtener con " << dineroUsuario << "bs es " << subirMasaMuscularTD(0,dineroUsuario) << " proteinas." << endl;
-    cout<<"Se puede comprar minimo " << minimoProductos(dineroUsuario) << " productos con " << dineroUsuario << "bs." << endl;
+    cout<<"Se puede comprar minimo " << minimoProductos(dineroUsuario) << " producto/s con " << dineroUsuario << "bs." << endl;
 }
 
 void example2(){
@@ -134,7 +110,7 @@ void example2(){
     cout<<"Ejecutando el Segundo Ejemplo para subir masa muscular 🦵🏻 ..."<<endl;
     cout<<"⤵️"<<endl;
     cout<<"El maximo de proteinas que se puede obtener con " << dineroUsuario << "bs es " << subirMasaMuscularTD(0,dineroUsuario) << " proteinas." << endl;
-    cout<<"Se puede comprar minimo " << minimoProductos(dineroUsuario) << " productos con " << dineroUsuario << "bs." << endl;
+    cout<<"Se puede comprar minimo " << minimoProductos(dineroUsuario) << " producto/s con " << dineroUsuario << "bs." << endl;
 }
 
 void example3(){
@@ -142,7 +118,7 @@ void example3(){
     cout<<"Ejecutando el Primer Ejemplo para aumentar volumen 🏋️‍♀️ ..."<<endl;
     cout<<"⤵️"<<endl;
     cout<<"El maximo de calorias que se puede obtener con " << dineroUsuario << "bs es " << aumentarVolumenTD(0,dineroUsuario) << " calorias." << endl;
-    cout<<"Se puede comprar minimo " << minimoProductos(dineroUsuario) << " productos con " << dineroUsuario << "bs." << endl;
+    cout<<"Se puede comprar minimo " << minimoProductos(dineroUsuario) << " producto/s con " << dineroUsuario << "bs." << endl;
 }
 
 void example4(){
@@ -150,7 +126,7 @@ void example4(){
     cout<<"Ejecutando el Segundo Ejemplo para aumentar volumen 🏃‍♂️ ..."<<endl;
     cout<<"⤵️"<<endl;
     cout<<"El maximo de calorias que se puede obtener con " << dineroUsuario << "bs es " << aumentarVolumenTD(0,dineroUsuario) << " calorias." << endl;
-    cout<<"Se puede comprar minimo " << minimoProductos(dineroUsuario) << " productos con " << dineroUsuario << "bs." << endl;
+    cout<<"Se puede comprar minimo " << minimoProductos(dineroUsuario) << " producto/s con " << dineroUsuario << "bs." << endl;
 }
 
 ;void example5(){
@@ -158,7 +134,7 @@ void example4(){
     cout<<"Ejecutando el Primer Ejemplo para subir de peso 🍗 ..."<<endl;
     cout<<"⤵️"<<endl;
     cout<<"El maximo de carbohidratos que se puede obtener con " << dineroUsuario << "bs es " << subirPesoTD(0,dineroUsuario) << " carbohidratos." << endl;
-    cout<<"Se puede comprar minimo " << minimoProductos(dineroUsuario) << " productos con " << dineroUsuario << "bs." << endl;
+    cout<<"Se puede comprar minimo " << minimoProductos(dineroUsuario) << " producto/s con " << dineroUsuario << "bs." << endl;
 }
 
 void example6(){
@@ -166,7 +142,7 @@ void example6(){
     cout<<"Ejecutando el Segundo Ejemplo para subir de peso 🥩 ..."<<endl;
     cout<<"⤵️"<<endl;
     cout<<"El maximo de carbohidratos que se puede obtener con " << dineroUsuario << "bs es " << subirPesoTD(0,dineroUsuario) << " carbohidratos." << endl;
-    cout<<"Se puede comprar minimo " << minimoProductos(dineroUsuario) << " productos con " << dineroUsuario << "bs." << endl;
+    cout<<"Se puede comprar minimo " << minimoProductos(dineroUsuario) << " producto/s con " << dineroUsuario << "bs." << endl;
 }
 
 void exit(){
