@@ -68,13 +68,13 @@ Finalmente podremos observar el resultado en el output del editor VS Code.
 
 
 ## Definición del Problema
-Para el desarrollo del programa se planteó el siguiente problema, un usuario quiere alcanzar una meta fisica implementando una dieta,
-teniendo como opción subir masa muscular, bajar de peso o entrar en definición, pero solo se tiene cierta cantidad de dinero para poder 
+Para el desarrollo del programa se planteó el siguiente problema, un usuario quiere alcanzar una meta física implementando una dieta,
+teniendo como opciones tener una ganancia de proteinas, carbohidratos o calorias, pero solo se tiene cierta cantidad de dinero para poder 
 obtener los resultados deseados. Entonces lo que se busca resolver con el programa es poder hallar la mejor dieta que otorgue proteinas para 
 subir masa muscular, baja en calorias para definición y baja en proteinas para bajar de peso, así mismo, encontrar el precio más económico, teniendo 
 una relación de ganancia-precio. Tenemos solamente 10 productos que estamos tomando en cuenta para realizar este análisis, los cuales son:
 Pollo, huevo, pescado, avena, linasa, quinua, te verde, yogurt griego, palta, y frutos secos. 
-Cada uno de estos productos obviamente tiene su respectiva valoración en los parámetros de calorias y proteinas.
+Cada uno de estos productos obviamente tiene su respectiva valoración en los parámetros de calorias, proteinas y carbohidratos.
 
 
 ## Explicación del Algoritmo
