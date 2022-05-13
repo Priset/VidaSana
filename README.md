@@ -86,7 +86,13 @@ busca la mejor solución entre un conjunto finito de posibles soluciones a un pr
 Modela una situación análoga al llenar una mochila, incapaz de soportar más de un cierto peso límite, la idea es llenar dicha mochila con 
 distintos objetos, cada uno con un peso y valor específicos. Los objetos colocados en la mochila deben ser los que tengan el mayor valor
 posible, obviamente sin exceder el peso máximo.
-Ahora bien, este algoritmo aplicado a nuestro código funcionaría de la siguiente manera: ...
+Ahora bien, este algoritmo aplicado a nuestro código funcionaría de la siguiente manera: Con el algoritmo Knapsack se halla el máximo 
+de proteinas, calorias y carbohidratos, cada uno con su propio código y con un propio arreglo dp, en cada uno de estos se tiene el
+dinero del usuario, que representaria el peso total de la mochila, el precio de los alimentos, los cuales se pueden comprar con dicho dinero
+del usuario, y la ganancia ya dicha, en proteinas, calorias y carbohidratos. También se tiene una cantidad N de productos que hacen referencia
+a la cantidad N de objetos que se pueden meter en la mochila, en este caso, N es igual a 10.
+Ahora, para el algoritmo CoinChange, saca el mínimo de productos que se pueden comprar con el dinero del usuario, dicho código devuelve INF
+(un número muy grande simulando el Infinito) cuando no hay solucion para el mínimo de productos.
 
 ## Conclusión 
 Para finalizar este proyecto se puede decir que el precio de nuestra alimentación puede variar demasiado dependiendo 
