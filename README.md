@@ -72,10 +72,10 @@ teniendo como opciones tener una ganancia de proteinas, carbohidratos o calorias
 obtener los resultados deseados. Entonces lo que se busca resolver con el programa es poder hallar la mejor dieta que otorgue proteinas para 
 subir masa muscular, alta en calorias para aumentar volumen y alta en carbohidratos para subir de peso, así mismo, 
 encontrar el precio más económico, teniendo  una relación de ganancia-precio. Tenemos solamente 10 productos que 
-estamos tomando en cuenta para realizar este análisis, los cuales son:Pollo, huevo, pescado, avena, linasa, 
+estamos tomando en cuenta para realizar este análisis, los cuales son:Pollo, huevo, pescado, avena, linaza, 
 quinua, te verde, yogurt griego, palta, y frutos secos. Cada uno de estos productos tienen su respectiva 
 valoración en los parámetros de calorias, proteinas y carbohidratos. Así mismo se desea calcular el mínimo de productos que se pueden comprar
-con el dinero que tenga el usuario, para su mejor comprención.
+con el dinero que tenga el usuario, para su mejor comprensión.
 
 
 ## Explicación del Algoritmo
