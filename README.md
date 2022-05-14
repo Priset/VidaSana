@@ -17,7 +17,7 @@ manejar el editor de su preferencia.
 Los requisitos esenciales para poder ejecutar el programa son los siguientes:
 
 #### 1.- Tener instalado un compilador para C++ (DEV C++) 
-Si no tiene instalado el compilador puede observar el sigueinte video para su 
+Si no tiene instalado el compilador puede observar el siguiente video para su 
 correcta instalación: https://www.youtube.com/watch?v=0B_Ly0A3RV0
 
 #### 2.- Tener un editor funcional que acepte C++
