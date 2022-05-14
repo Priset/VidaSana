@@ -3,7 +3,7 @@
 #define output freopen("out.txt","w",stdout)
 #define INF 100000010;
 using namespace std;    
-int precio[] = {8, 8, 10, 15, 25, 30, 35, 35, 45, 80}; //1.linasa, 2.te_verde, 3.quinua, 4.palta, 5.yogurt_griego, 6.huevo, 7.avena, 8.frutos secos, 9.pollo, 10.pescado.
+int precio[] = {8, 8, 10, 15, 25, 30, 35, 35, 45, 80}; //1.linaza, 2.te_verde, 3.quinua, 4.palta, 5.yogurt_griego, 6.huevo, 7.avena, 8.frutos secos, 9.pollo, 10.pescado.
 int gananciaProteinas[] = {1, 25, 40, 50, 200, 360, 390, 400, 540, 840};
 int gananciaCalorias[] = {40, 980, 1400, 2250, 3200, 3600, 3600, 3900, 6600, 10600};
 int gananciaCarbohidratos[] = {1, 2, 3, 15, 140, 180, 300, 500, 530, 600};
