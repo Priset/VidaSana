@@ -56,15 +56,14 @@ respectivamente luego se podrian seguir los pasos de manera análoga).
 
 
 #### 3.- Ejecutar el programa
-Una vez que se tenga todo funcional, se puede proceder a compilar el programa, primero en el archivo in.txt introducimos 
-la entrada que se desee del 1 al 6 (el 7 es para salir del programa).
-Luego se va al archivo vida_sana.cpp y ejecutamos el programa en la flecha de compilación al lado superior derecho del editor (VS Code). 
+Una vez que se tenga todo funcional, se puede proceder a compilar el programa, primero se va al archivo vida_sana.cpp y ejecutamos el programa en la flecha de compilación al lado superior derecho del editor (VS Code). 
 
 
 ![imagen](https://user-images.githubusercontent.com/90929324/167505358-5001ffde-f964-436d-880b-d96c80fb738d.png)
 
 
-Finalmente podremos observar el resultado en el output del editor VS Code.
+Finalmente podremos observar el resultado en la terminal del editor VS Code e introducir y podremos ingresar las opciones del 1 al 6 
+(el 7 es para salir del programa).
 
 
 ## Definición del Problema
