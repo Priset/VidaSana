@@ -97,11 +97,11 @@ Ahora, para el algoritmo CoinChange, saca el mínimo de productos que se pueden 
 
 ## Conclusión 
 Para finalizar este proyecto se puede decir que el precio de nuestra alimentación puede variar demasiado dependiendo 
-nuestra meta, con este algoritmo podriamos escoger de acuerdo a nuestras nececidades y posibilidades lo más adecuado 
+nuestra meta, con este algoritmo podriamos escoger de acuerdo a nuestras necesidades y posibilidades lo más adecuado 
 y accesible para una persona de cualquier estatus social. 
 Por lo tanto, se ha llegado a la conclusión que este algoritmo nos ayuda a resolver problemas utilizando Knapsack 
 siendo el proceso muy eficiente debido a la facilidad que nos otorga este, y por lo tanto es uno de los algoritmos
-más utilizados. Así mismo se uso programación dinamica para tener resultados más precisos y óptimos además de la obtención de 
+más utilizados. Así mismo se usó programación dinamica para tener resultados más precisos y óptimos además de la obtención de 
 datos adicionales que nos ayudan a desarrollar mejor la solución al problema. Obteniendo de este modo un resultado exitoso 
 con el programa "vida_sana" y resolviendo todo el problema planteado anteriormente. 
 
