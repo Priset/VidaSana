@@ -80,7 +80,7 @@ con el dinero que tenga el usuario, para su mejor comprensión.
 
 ## Explicación del Algoritmo
 Primeramente, en este proyecto se ha usado el algoritmo Knapsack, que viene de uno de los varios algoritmos que se ven en programación 
-dinámica, este código tiene la similitud del problema de la moneda (CoinChange) utilizando el mínimo entre las ocpiones dadas,
+dinámica, este código tiene la similitud del problema de la moneda (CoinChange) utilizando el mínimo entre las opciones dadas,
 y el problema de la mochila que utiliza el máximo entre sus opciones. En este caso, el algoritmo Knapsack fue implementado con Top Down.
 Explicando la idea en general de este algoritmo, se puede observar que es un problema de optimización combinatoria, es decir, que
 busca la mejor solución entre un conjunto finito de posibles soluciones a un problema (en este caso las máximas y mínimas posibilidades).
