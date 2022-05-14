@@ -21,7 +21,7 @@ Si no tiene instalado el compilador puede observar el siguiente video para su
 correcta instalación: https://www.youtube.com/watch?v=0B_Ly0A3RV0
 
 #### 2.- Tener un editor funcional que acepte C++
-En este caso Visual Studio Code, si no tiene instaladoun editor puede observar el 
+En este caso Visual Studio Code, si no tiene instalado un editor puede observar el 
 siguiente video para su correcta instalación: https://www.youtube.com/watch?v=X_Z7d04x9-E
 
 #### 3.- Instalar extensiones
@@ -33,7 +33,7 @@ Estas extensiones se pueden instalar dese el menu de acciones del lado izquierdo
 Continuando con el proceso de instalación debemos realizar las siguientes acciones:
 
 #### 1.- Crear Carpeta
-Se debe crear una carpeta en donde se almacenaran los archivos del programa asignandole el nombre que desee.
+Se debe crear una carpeta en donde se almacenarán los archivos del programa asignandole el nombre que desee.
 
 
 ![imagen](https://user-images.githubusercontent.com/90929324/167324711-262b7616-05a9-4383-8dcf-d4c44d313be8.png)
