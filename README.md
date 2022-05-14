@@ -30,7 +30,7 @@ Estas extensiones se pueden instalar dese el menu de acciones del lado izquierdo
 
 ![imagen](https://user-images.githubusercontent.com/90929324/167324671-19222b16-e4c6-44a7-99a0-9e8ffef3c957.png)
 
-Continuando con el proceso de instalación debemos realizar las siquientes acciones:
+Continuando con el proceso de instalación debemos realizar las siguientes acciones:
 
 #### 1.- Crear Carpeta
 Se debe crear una carpeta en donde se almacenaran los archivos del programa asignandole el nombre que desee.
