@@ -56,7 +56,7 @@ respectivamente luego se podrian seguir los pasos de manera análoga).
 
 
 #### 3.- Ejecutar el programa
-Una vez que se tenga todo funcional, se puede proceder a compilar el programa, primero en el archivo in.txt itroducimos 
+Una vez que se tenga todo funcional, se puede proceder a compilar el programa, primero en el archivo in.txt introducimos 
 la entrada que se desee del 1 al 6 (el 7 es para salir del programa).
 Luego se va al archivo vida_sana.cpp y ejecutamos el programa en la flecha de compilación al lado superior derecho del editor (VS Code). 
 
